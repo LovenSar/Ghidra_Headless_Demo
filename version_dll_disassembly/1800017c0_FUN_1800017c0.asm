@@ -1,0 +1,10 @@
+; Function: FUN_1800017c0
+; Address: 1800017c0
+; Body: [[1800017c0, 1800017de]]
+
+1800017c0  SUB        RSP, 0x48          ; 48 83 EC 48
+1800017c4  LEA        RCX, [RSP + 0x20]  ; 48 8D 4C 24 20
+1800017c9  CALL       0x180001790        ; E8 C2 FF FF FF
+1800017ce  LEA        RDX, [0x18003baf0] ; 48 8D 15 1B A3 03 00
+1800017d5  LEA        RCX, [RSP + 0x20]  ; 48 8D 4C 24 20
+1800017da  CALL       0x180007cc4        ; E8 E5 64 00 00

@@ -1,0 +1,11 @@
+; Function: FUN_180005084
+; Address: 180005084
+; Body: [[180005084, 1800050a5]]
+
+180005084  SUB        RSP, 0x48          ; 48 83 EC 48
+180005088  MOV        RDX, RCX           ; 48 8B D1
+18000508b  LEA        RCX, [RSP + 0x20]  ; 48 8D 4C 24 20
+180005090  CALL       0x180005018        ; E8 83 FF FF FF
+180005095  LEA        RDX, [0x18003b9a0] ; 48 8D 15 04 69 03 00
+18000509c  LEA        RCX, [RSP + 0x20]  ; 48 8D 4C 24 20
+1800050a1  CALL       0x180007cc4        ; E8 1E 2C 00 00

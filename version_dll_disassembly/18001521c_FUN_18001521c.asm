@@ -1,0 +1,13 @@
+; Function: FUN_18001521c
+; Address: 18001521c
+; Body: [[18001521c, 180015244]]
+
+18001521c  SUB        RSP, 0x28          ; 48 83 EC 28
+180015220  CALL       0x1800180d8        ; E8 B3 2E 00 00
+180015225  MOV        RAX, qword ptr [RAX + 0x18] ; 48 8B 40 18
+180015229  TEST       RAX, RAX           ; 48 85 C0
+18001522c  JZ         0x180015240        ; 74 12
+18001522e  MOV        R10, -0x7a0ec169a925b790 ; 49 BA 70 48 DA 56 96 3E F1 85
+180015238  CALL       qword ptr [0x18002a2d0] ; FF 15 92 50 01 00
+18001523e  JMP        0x180015240        ; EB 00
+180015240  CALL       0x180013ad8        ; E8 93 E8 FF FF
