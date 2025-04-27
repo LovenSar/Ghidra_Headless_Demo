@@ -1,7 +1,0 @@
-; Function: FUN_18001519c
-; Address: 18001519c
-; Body: [[18001519c, 1800151ae]]
-
-18001519c  LEA        RDX, [0x18002fa50] ; 48 8D 15 AD A8 01 00
-1800151a3  LEA        RCX, [0x18002f950] ; 48 8D 0D A6 A7 01 00
-1800151aa  JMP        0x18002024c        ; E9 9D B0 00 00
